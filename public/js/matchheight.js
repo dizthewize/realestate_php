@@ -393,6 +393,7 @@
             remove: false
         };
       $('.thumbnail').matchHeight(options);
+      $('.services').matchHeight(options);
     });
 
 });
