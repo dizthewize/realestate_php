@@ -1,0 +1,49 @@
+#property-list
+  .property-heading
+    text-align: center
+    margin: 2em 0
+
+  .thumbnail
+    background: #939392
+    border: 1px solid #615E5D
+
+    .thumbnail img
+      max-height: 175px
+
+    h3
+      color: #F05D5E
+      text-align: center
+      padding-bottom: 5px
+
+    p
+      color: $paragraph-color
+
+    .amenities
+      text-align: center
+      color: #F0EFEF
+      margin-bottom: 8px
+
+    i,
+    a,
+    h4,
+    span
+      color: $paragraph-color
+
+    a.btn.btn-default
+      &:hover
+        color: #F05D5E
+
+@media (max-width: 768px) and (min-width: 320px)
+  .thumbnail
+    .amenities
+      padding: 10px
+
+  .caption
+    .row
+      text-align: center
+
+      .col-sm-6
+        padding: 6px 0
+
+
+//TODO: Align price with contact button

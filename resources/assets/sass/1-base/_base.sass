@@ -1,0 +1,121 @@
+/*------------------------------------*\
+    # Simple Typography Settings
+/*------------------------------------*/
+
+// Font Family
+$fontStack: helvetica, sans-serif
+
+// Base Font for HTML
+$base-font-size: 16px
+
+// Paragraph Styles
+$paragraph-color      : #615E5D
+$paragraph-size       : 17px
+$paragraph-line-height: 1.5em
+$paragraph-margin     : 20px
+
+// Header Styles
+$header-color      : #000000
+$header-size       : 40px
+$header-line-height: 1.25em
+$header-margin     : $paragraph-margin * 1.2
+
+// Blockquote Styles
+$blockquote-color      : #505050
+$blockquote-size       : 23px
+$blockquote-line-height: 1.5em
+$blockquote-margin     : $paragraph-margin * 1.5
+
+// Links
+$link-color: #4eaff6
+
+// hr
+$hr-margin: 30px
+
+// Type Misc
+$font-weight-bold: 800
+$border-color: #DADADA
+
+
+
+
+
+/*------------------------------------*\
+    # Type
+/*------------------------------------*/
+
+// Make type normal across browsers
+*, html, body
+    font-size: $base-font-size
+    font-family: $fontStack
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+    -webkit-text-size-adjust: 100%
+    -ms-text-size-adjust: 100%
+
+body
+  background-color: #615E5D
+  font-family: $fontStack
+  color: #F0EFEF
+  // .col-md-4
+  //   padding: 0
+
+h1, h2, h3, h4, h5, h6
+  margin: 0
+
+.row
+  margin-left: 0
+  margin-right: 0
+
+
+
+
+
+// Paragraphs
+p
+    margin-top: $paragraph-margin
+    font-size: $paragraph-size
+    line-height: $paragraph-line-height
+
+    &:first-of-type
+        margin-top: 0
+
+// hr
+hr
+    height: 1px
+    margin: $hr-margin 0
+    border: none
+    background-color: $border-color
+
+// Tables
+table
+    width: 100%
+    margin: $blockquote-margin 0
+    border-collapse: collapse
+
+
+table, td, th
+    border: 1px solid $border-color
+    text-align: left
+
+
+th
+    font-weight: $font-weight-bold
+
+
+th, td
+    padding: 15px
+
+
+// Misc Styles
+em, i, .italic
+    font-style: italic
+
+strong, b, .bold
+    font-weight: $font-weight-bold
+
+
+img
+    display: block
+    max-width: 100%
+    height: 260px
