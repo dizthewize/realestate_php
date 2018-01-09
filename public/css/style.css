@@ -8395,8 +8395,12 @@ img {
   color: white;
 }
 
+#members .member-details {
+  margin-top: 15px;
+}
+
 #members .member-details h3 {
-  padding: 12px 0;
+  padding: 10px 0;
 }
 
 #members .member-details p {

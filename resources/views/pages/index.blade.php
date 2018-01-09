@@ -60,7 +60,7 @@
         <div class="property-heading">
           <h1>Latest Properties</h1>
           <hr class="style-eight">
-          <p>New; Open Houses; Price Cuts; Luxury; Virtual Tours. Property Type. Single Family; Condo/Townhouse; Multi-Family; Vacant Land; Mobile Home.</p>
+          <p>Church-key plaid cloud bread live-edge, post-ironic pabst tattooed. Aesthetic forage cold-pressed, next level offal banh mi palo santo swag you probably haven't heard of them authentic.</p>
         </div>
       </div>
     </div>

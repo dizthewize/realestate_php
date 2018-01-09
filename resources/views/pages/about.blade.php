@@ -64,17 +64,7 @@
           <h3>John Smith
               <small>Property management</small>
           </h3>
-          <p>Discover the difference of what a knowledgeable and diverse team of professionals can mean when helping you make informed decisions</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="member-details">
-          <img class="img-circle img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/tomaslau/128.jpg" alt="">
-          <h3>Jack Sparrow
-              <small>Realtor</small>
-          </h3>
-          <p>I strive to exceed my clients' expectations, not merely meet their needs.</p>
+          <p>Discover the difference of what a knowledgeable and diverse team of professionals</p>
         </div>
       </div>
 
